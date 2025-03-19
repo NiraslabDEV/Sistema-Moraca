@@ -35,7 +35,3 @@ Tecnologias
     ReportLab (para .pdf)
     SQLite (para salvar informações de OSs e permitir consulta)
     PyInstaller (para gerar .exe)
-
-Agora, vamos transformar isso em um protótipo de código para você jogar no seu cursor.
-
-Vou estruturar um código inicial que cubra as principais funcionalidades e tenha a interface moderna com Tkbootstrap (Solar).
