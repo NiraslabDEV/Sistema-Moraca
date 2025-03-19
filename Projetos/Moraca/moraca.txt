@@ -1,0 +1,41 @@
+Fluxo Profissional Melhorado
+
+    Tela Inicial
+        Exibir um resumo das últimas OS criadas.
+        Campo de pesquisa para consultar OS antigas.
+        Botão "Criar Nova OS".
+
+    Tela de Criação de OS
+        Campos obrigatórios:
+            Nome do cliente
+            Tipo de máquina
+            Descrição do problema
+            Nível de urgência (Normal, Alta, Crítica)
+        Número da OS gerado automaticamente (Formato OSYYXXX).
+        Botões:
+            Salvar OS (gera arquivos nas pastas correspondentes).
+            Imprimir OS.
+            Imprimir OS Interna.
+            Cancelar (se quiser descartar uma OS antes de salvar).
+
+    Tela de Consulta e Edição
+        Campo para buscar OS antigas pelo número, nome do cliente ou data.
+        Listagem de OS com status visual (pendente, concluída, em andamento).
+        Botão para abrir OS e editá-la se necessário.
+        Botão para gerar uma nova OS baseada em uma anterior.
+
+    Relatórios e Exportação
+        Opção para gerar relatório mensal/trimestral/anual das OSs.
+        Exportação para Excel/PDF.
+
+Tecnologias
+
+    Tkinter + Tkbootstrap (Solar)
+    Python-docx (para criar .docx)
+    ReportLab (para .pdf)
+    SQLite (para salvar informações de OSs e permitir consulta)
+    PyInstaller (para gerar .exe)
+
+Agora, vamos transformar isso em um protótipo de código para você jogar no seu cursor.
+
+Vou estruturar um código inicial que cubra as principais funcionalidades e tenha a interface moderna com Tkbootstrap (Solar).

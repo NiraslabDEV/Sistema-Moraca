@@ -1,0 +1,31 @@
+# Ambientes virtuais Python
+env_moraca/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de build do PyInstaller
+build/
+dist/
+*.spec
+
+# Arquivos de banco de dados
+*.db-journal
+
+# Arquivos específicos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*~
+*.bak
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração do IDE
+.idea/
+.vscode/ 
